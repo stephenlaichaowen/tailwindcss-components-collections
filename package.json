@@ -1,0 +1,19 @@
+{
+  "name": "vite_tenplate",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "push": "git add . && git commit -m commit && git push origin master"
+  },
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3",
+    "vite": "^1.0.0-rc.13"
+  }
+}

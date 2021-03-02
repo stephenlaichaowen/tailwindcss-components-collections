@@ -50,6 +50,9 @@ export default {
   margin: 0 auto 2rem;
   border: 1px solid #ddd;
   padding: 50px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 label {
   font-weight: 700;
@@ -61,7 +64,7 @@ input[type=password] {
   padding: 8px 12px;
   background: #eee;
   border-radius: 4px;
-  width: 225px;
+  /* max-width: 225px; */
   color: red;
 }
 .input-username {

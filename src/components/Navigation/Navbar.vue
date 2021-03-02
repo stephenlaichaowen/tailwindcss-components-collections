@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 .navbar {
-  max-width: 100vw;
+  /* max-width: 100vw; */
   padding: 20px 36px 20px 24px;
   background: #14b8a6;
   display: flex;

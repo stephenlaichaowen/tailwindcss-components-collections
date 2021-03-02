@@ -1,12 +1,12 @@
 <template>
   <div class="app">
     <Navigation />
-    <!-- <Card /> -->
-    <!-- <Alerts /> -->
-    <Card3 />
-    <Card2 />
-    <Signin />
-    <Signup />
+    <div class="content">
+      <Card3 />
+      <Card2 />
+      <Signin />
+      <Signup />
+    </div>
   </div>
 </template>
 
@@ -44,6 +44,10 @@ export default {
   flex-direction: column;
   /* height: 100vh; */
   justify-content: center;
+}
+
+.content {
+  padding: 0 10px;
 }
 
 .title {

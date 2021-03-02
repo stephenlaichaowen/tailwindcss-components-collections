@@ -42,6 +42,8 @@ export default {};
   }
   .card .woman {
     height: 192px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     @apply object-cover;
   }
 }
@@ -84,5 +86,8 @@ footer .avatar {
 footer p {
   font-weight: 400;
   color: #3f3f46;
+}
+.woman {
+
 }
 </style>

@@ -11,7 +11,7 @@
         nihil.
       </p>
       <div class="tags">
-        <a href="/">#photography</a>
+        <a class="tag-1" href="/">#photography</a>
         <a href="/">#travel</a>
         <a href="/">#winter</a>
       </div>
@@ -47,6 +47,11 @@ export default {};
 .tags {
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 350px) {
+  .tag-1 {
+    margin-bottom: 11px;
+  }
 }
 .tags a {
   background: #F4F4F5;

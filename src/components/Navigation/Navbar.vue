@@ -11,7 +11,7 @@
       <a href="/">Examples</a>
       <a href="/">Blog </a>
     </div>
-    <!-- <button>Download</button> -->
+    <button>Download</button>
     <div class="burger" @click="toggle">
       <img src="/burger.png" alt="">
     </div>

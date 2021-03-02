@@ -2,7 +2,7 @@
 
 ## The project contains the components I code from [Tailwind CSS UI](https://www.figma.com/community/file/768809027799962739) with pure CSS using vue/vite framework
 
-### Components List
+### Components List (Fully Responsive)
 - Navbar (RWD)
 - Dropdown menu
 - Form

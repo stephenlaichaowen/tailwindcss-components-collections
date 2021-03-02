@@ -15,4 +15,12 @@ I plan to code this ui kit with tailwindcss, then I realize that I don't need to
 
 #### Stephen Lai
 
+-----------------------------------
+
+## How to run this project
+- run `npm i` to install all the dependencies
+- run `npm run dev` to start the development server
+
+that's all 😎😎😎
+
 
